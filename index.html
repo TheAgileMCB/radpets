@@ -6,8 +6,6 @@
         <title>Rad Pets 4 Rad Peeps</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href="css/styles.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src='js/script.js'></script>
     </head>
     <body>
         <header>
@@ -21,15 +19,29 @@
                     <li><a href="https://www.google.com/search?sxsrf=ACYBGNS6BqEBnRrj40eksu2f4G8ezsGPyQ%3A1581525153942&ei=oShEXqaGOYu-tAbThrSYBg&q=reptiles&oq=reptiles&gs_l=psy-ab.3..0i131l2j0l2j0i131j0l3j0i131j0.13506.16577..16751...0.1..0.131.623.7j1......0....1..gws-wiz.......0i71j35i39j0i67.lPB-YFH4eh0&ved=0ahUKEwjm2oOouMznAhULH80KHVMDDWMQ4dUDCAs&uact=5">Oh My!</a></li>
                 </ul>
             </nav>
-            <h3>Friend Finder</h3>
-            <p> Which type of friend would you prefer?</p>
             <form>
-                <input type="radio" name="pet" value="dogs"> Dogs
-                <input type="radio" name="pet" value="cats"> Cats
-                <input type="radio" name="pet" value="bunnies"> Bunnies
-                <input type="radio" name="pet" value="People"> People<br>
-                <input type="submit" value="Submit">
-            </form> 
+                <h3>Friend Finder</h3>
+                <p> Which type of friend would you prefer?</p>
+                <div>
+                  <input type="radio" id="pet1"
+                         name="pet" value="dogs">
+                  <label for="pet1">Dogs</label>
+                  <input type="radio" id="pet2"
+                         name="pet" value="cats">
+                  <label for="pet2">Cats</label>
+                  <input type="radio" id="pet3"
+                         name="pet" value="bunnies">
+                  <label for="pet3">Bunnies</label>
+                  <input type="radio" id="pet4"
+                         name="pet" value="people">
+                  <label for="pet4">People</label>
+                </div>
+                <div>
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
+              <pre id="log">
+              </pre>
         </header>
         <main>
             <section class="card">
@@ -71,6 +83,7 @@
             <a href="https://github.io/mcbarnhart">GitHub</a>
             <a href="https://github.io">Peep our Sister Site!</a>
             <p>&#169; 2019 by Radanmials, LLC</p>
-        </footer>    
+        </footer>
+        <script src='js/script.js'></script>    
     </body>
 </html>
