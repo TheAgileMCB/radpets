@@ -45,7 +45,7 @@ var howMany = function() {
   
     console.log('getItem():', item);
   
-    document.write(item);
+    document.write(howMany() + " living things on order!");
     return item;
   }
   
