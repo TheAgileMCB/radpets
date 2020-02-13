@@ -6,7 +6,8 @@
         <title>Rad Pets 4 Rad Peeps</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href="css/styles.css">
-        <!-- <script src='main.js'></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src='js/script.js'></script>
     </head>
     <body>
         <header>
@@ -20,9 +21,18 @@
                     <li><a href="https://www.google.com/search?sxsrf=ACYBGNS6BqEBnRrj40eksu2f4G8ezsGPyQ%3A1581525153942&ei=oShEXqaGOYu-tAbThrSYBg&q=reptiles&oq=reptiles&gs_l=psy-ab.3..0i131l2j0l2j0i131j0l3j0i131j0.13506.16577..16751...0.1..0.131.623.7j1......0....1..gws-wiz.......0i71j35i39j0i67.lPB-YFH4eh0&ved=0ahUKEwjm2oOouMznAhULH80KHVMDDWMQ4dUDCAs&uact=5">Oh My!</a></li>
                 </ul>
             </nav>
+            <h3>Friend Finder</h3>
+            <p> Which type of friend would you prefer?</p>
+            <form>
+                <input type="radio" name="pet" value="dogs"> Dogs
+                <input type="radio" name="pet" value="cats"> Cats
+                <input type="radio" name="pet" value="bunnies"> Bunnies
+                <input type="radio" name="pet" value="People"> People<br>
+                <input type="submit" value="Submit">
+            </form> 
         </header>
         <main>
-            <section>
+            <section class="card">
                 <img src="images/pet1.jpg">
                 <article>
                     <ul>
@@ -33,7 +43,7 @@
                     <p>About Me: Lorem ipsum dolor amet tote bag tacos slow-carb, plaid kinfolk post-ironic 8-bit salvia photo booth taiyaki put a bird on it ennui hoodie activated charcoal. Listicle forage disrupt ethical food truck. Selvage synth church-key, hoodie prism stumptown vape you probably haven't heard of them trust fund whatever man bun. Irony gastropub af readymade bitters tbh.</p>
                 </article>
             </section>
-            <section>
+            <section class="card">
                 <img src="images/pet2.jpg">
                 <article>
                     <ul>
@@ -44,7 +54,7 @@
                     <p>About Me: Echo park tattooed kogi craft beer. Ethical stumptown deep v cold-pressed selfies leggings. Craft beer vegan echo park hashtag, portland gastropub salvia VHS messenger bag photo booth chicharrones offal. Ugh listicle lomo hexagon bicycle rights.</p>
                 </article>
             </section>
-            <section>
+            <section class="card">
                 <img src="images/pet3.jpg">
                 <article>
                     <ul>

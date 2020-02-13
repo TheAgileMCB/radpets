@@ -109,3 +109,7 @@ footer p {
     color: white;
     margin: 1em;
 }
+
+.card.checked {
+    border: dashed 20px yellow;
+}
