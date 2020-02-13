@@ -100,22 +100,32 @@ footer {
     text-align: center;
     margin: 2em;
     border: solid 2px white;
+    padding: 1em;
 }
 
 footer a {
-    padding: 0 2em;
+    padding: 1em 2em;
     color: white;
 }
 
 footer p {
     color: white;
-    margin: 1em;
 }
 
 .card.checked {
     border: dashed 20px yellow;
 }
 
-/* pre {
-    font-size: 200px;
-} */
+form {
+    color: #1B512D;
+    padding: 2px;
+    border: solid 2px white;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form button {
+    margin: 1em;
+}

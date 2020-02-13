@@ -10,3 +10,8 @@ form.addEventListener("submit", function(event) {
   log.innerText = output;
   event.preventDefault();
 }, false);
+
+function printToday(){
+    var today = new Date();
+    document.write(today.toDateString())
+};
